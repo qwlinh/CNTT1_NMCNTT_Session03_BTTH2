@@ -26,7 +26,8 @@ Sử dụng đường dẫn tương đối dựa trên vị trí hiện tại c�
  - Đường dẫn tương đối từ thư mục hiện tại trỏ tới assets/logo.png
 logo_path = os.path.join(".", "assets", "logo.png")
 
-### 2. Đề xuất 3 bước xử lý giảm lag dựa trên Task Manager (RAM 98%)
+2. 3 bước xử lý giảm lag dựa trên Task Manager (RAM 98%)
+   
 B1. **Buộc dừng các tiến trình ngốn RAM:** Mở **Task Manager** (Ctrl + Shift + Esc), chọn tab *Processes*, tìm các ứng dụng chạy ngầm chiếm nhiều tài nguyên
 
 B2. **Khởi động lại môi trường lập trình:** Tắt hoàn toàn IDE để giải phóng vùng nhớ RAM đang bị giữ bởi tiến trình Python chạy treo trước đó.
